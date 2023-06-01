@@ -1133,6 +1133,21 @@
           }
         }
       },
+      "WeatherForecastApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "WeatherForecastApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WeatherForecastApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherForecastApp.Data.dll": {}
+        }
+      },
       "WeatherForecastApp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3467,6 +3482,11 @@
         "version.txt"
       ]
     },
+    "WeatherForecastApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../WeatherForecastApp.Data/WeatherForecastApp.Data.csproj",
+      "msbuildProject": "../WeatherForecastApp.Data/WeatherForecastApp.Data.csproj"
+    },
     "WeatherForecastApp.Models/1.0.0": {
       "type": "project",
       "path": "../WeatherForecastApp.Models/WeatherForecastApp.Models.csproj",
@@ -3479,6 +3499,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
+      "WeatherForecastApp.Data >= 1.0.0",
       "WeatherForecastApp.Models >= 1.0.0"
     ]
   },
@@ -3509,6 +3530,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\WeatherForecastApp\\WeatherForecastApp.Data\\WeatherForecastApp.Data.csproj": {
+              "projectPath": "D:\\WeatherForecastApp\\WeatherForecastApp.Data\\WeatherForecastApp.Data.csproj"
+            },
             "D:\\WeatherForecastApp\\WeatherForecastApp.Models\\WeatherForecastApp.Models.csproj": {
               "projectPath": "D:\\WeatherForecastApp\\WeatherForecastApp.Models\\WeatherForecastApp.Models.csproj"
             }

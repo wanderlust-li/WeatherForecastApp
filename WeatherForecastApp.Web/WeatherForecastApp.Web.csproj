@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\WeatherForecastApp.Data\WeatherForecastApp.Data.csproj" />
       <ProjectReference Include="..\WeatherForecastApp.Models\WeatherForecastApp.Models.csproj" />
     </ItemGroup>
 

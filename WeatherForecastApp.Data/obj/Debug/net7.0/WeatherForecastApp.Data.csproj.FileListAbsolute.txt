@@ -1,0 +1,17 @@
+D:\WeatherForecastApp\WeatherForecastApp.Data\bin\Debug\net7.0\WeatherForecastApp.Data.deps.json
+D:\WeatherForecastApp\WeatherForecastApp.Data\bin\Debug\net7.0\WeatherForecastApp.Data.runtimeconfig.json
+D:\WeatherForecastApp\WeatherForecastApp.Data\bin\Debug\net7.0\WeatherForecastApp.Data.dll
+D:\WeatherForecastApp\WeatherForecastApp.Data\bin\Debug\net7.0\WeatherForecastApp.Data.pdb
+D:\WeatherForecastApp\WeatherForecastApp.Data\bin\Debug\net7.0\WeatherForecastApp.Models.dll
+D:\WeatherForecastApp\WeatherForecastApp.Data\bin\Debug\net7.0\WeatherForecastApp.Models.pdb
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.csproj.AssemblyReference.cache
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.AssemblyInfoInputs.cache
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.AssemblyInfo.cs
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.csproj.CoreCompileInputs.cache
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.csproj.CopyComplete
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.dll
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\refint\WeatherForecastApp.Data.dll
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.pdb
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\WeatherForecastApp.Data.genruntimeconfig.cache
+D:\WeatherForecastApp\WeatherForecastApp.Data\obj\Debug\net7.0\ref\WeatherForecastApp.Data.dll

@@ -13,7 +13,7 @@ namespace WeatherForecastConsole
 
             try
             {
-                string apiKey = "9171b06eb5989b5061b6e96161ced43a"; // Your OpenWeatherMap API key
+                string apiKey = ""; // Your OpenWeatherMap API key
 
                 using (HttpClient client = new HttpClient())
                 {

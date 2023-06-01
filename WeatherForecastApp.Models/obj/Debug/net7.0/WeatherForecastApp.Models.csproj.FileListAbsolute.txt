@@ -10,3 +10,5 @@ D:\WeatherForecastApp\WeatherForecastApp.Models\obj\Debug\net7.0\WeatherForecast
 D:\WeatherForecastApp\WeatherForecastApp.Models\obj\Debug\net7.0\refint\WeatherForecastApp.Models.dll
 D:\WeatherForecastApp\WeatherForecastApp.Models\obj\Debug\net7.0\WeatherForecastApp.Models.pdb
 D:\WeatherForecastApp\WeatherForecastApp.Models\obj\Debug\net7.0\ref\WeatherForecastApp.Models.dll
+D:\WeatherForecastApp\WeatherForecastApp.Models\bin\Debug\net7.0\WeatherForecastApp.Models.runtimeconfig.json
+D:\WeatherForecastApp\WeatherForecastApp.Models\obj\Debug\net7.0\WeatherForecastApp.Models.genruntimeconfig.cache
