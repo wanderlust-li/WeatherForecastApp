@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "WeatherForecastApp.Web/1.0.0": {
+        "dependencies": {
+          "WeatherForecastApp.Models": "1.0.0"
+        },
         "runtime": {
           "WeatherForecastApp.Web.dll": {}
+        }
+      },
+      "WeatherForecastApp.Models/1.0.0": {
+        "runtime": {
+          "WeatherForecastApp.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WeatherForecastApp.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeatherForecastApp.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

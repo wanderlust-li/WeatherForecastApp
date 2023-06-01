@@ -29,3 +29,6 @@ D:\WeatherForecastApp\WeatherForecastApp.Web\obj\Debug\net7.0\refint\WeatherFore
 D:\WeatherForecastApp\WeatherForecastApp.Web\obj\Debug\net7.0\WeatherForecastApp.Web.pdb
 D:\WeatherForecastApp\WeatherForecastApp.Web\obj\Debug\net7.0\WeatherForecastApp.Web.genruntimeconfig.cache
 D:\WeatherForecastApp\WeatherForecastApp.Web\obj\Debug\net7.0\ref\WeatherForecastApp.Web.dll
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\WeatherForecastApp.Models.dll
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\WeatherForecastApp.Models.pdb
+D:\WeatherForecastApp\WeatherForecastApp.Web\obj\Debug\net7.0\WeatherForecastApp.Web.csproj.CopyComplete

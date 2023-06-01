@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApp.Web", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApp.Models", "WeatherForecastApp.Models\WeatherForecastApp.Models.csproj", "{E2F91BDD-827C-47D6-BE29-9FC57AAFEB60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastConsole", "WeatherForecastConsole\WeatherForecastConsole.csproj", "{BD7ECD00-2D44-4823-A103-A5A0D6E9A06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApp.Data", "WeatherForecastApp.Data\WeatherForecastApp.Data.csproj", "{E516C84C-9764-404C-B199-898D28D62411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{E2F91BDD-827C-47D6-BE29-9FC57AAFEB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2F91BDD-827C-47D6-BE29-9FC57AAFEB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2F91BDD-827C-47D6-BE29-9FC57AAFEB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7ECD00-2D44-4823-A103-A5A0D6E9A06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7ECD00-2D44-4823-A103-A5A0D6E9A06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7ECD00-2D44-4823-A103-A5A0D6E9A06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7ECD00-2D44-4823-A103-A5A0D6E9A06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E516C84C-9764-404C-B199-898D28D62411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E516C84C-9764-404C-B199-898D28D62411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E516C84C-9764-404C-B199-898D28D62411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E516C84C-9764-404C-B199-898D28D62411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
