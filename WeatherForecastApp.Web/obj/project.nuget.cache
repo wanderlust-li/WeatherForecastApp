@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4gO1/WCu/ahfMMrnOhKFPOEFntubna3ctpAmbLt2JVi4ryyLCIDLZ78Ysxv8se5DpAFMlY6FzLGSLge/H9yLIg==",
+  "dgSpecHash": "jW4LdxpGCM+LBo33cGCFouEFQqtNBf+UN56X6QpPOx6xluXha/LmXb1DdTyeb6+/73MGYqs6Edp/ondOo0ptCg==",
   "success": true,
   "projectFilePath": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\WeatherForecastApp.Web.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

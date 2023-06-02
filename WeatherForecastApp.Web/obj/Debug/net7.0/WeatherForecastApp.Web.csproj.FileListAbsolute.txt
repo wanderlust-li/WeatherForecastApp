@@ -75,3 +75,6 @@ D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\runtimes\win\lib\n
 D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\WeatherForecastApp.Data.dll
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\WeatherForecastApp.Data.pdb
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\Newtonsoft.Json.dll

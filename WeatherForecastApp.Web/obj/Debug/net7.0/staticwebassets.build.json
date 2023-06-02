@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KWHP0j1GiD2fmlIlywMntn79+OiMX3sctMDN5FPZDDw=",
+  "Hash": "Q6cIea3NT6j3DivbcIYatuVDr2plhV7ruNr7YNhuK+A=",
   "Source": "WeatherForecastApp.Web",
   "BasePath": "_content/WeatherForecastApp.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WeatherForecastApp.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "WeatherForecastApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\",
+      "BasePath": "_content/WeatherForecastApp.Web",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\css\\site.css",
