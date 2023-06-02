@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\icons8-sunset-64.png",
+      "PackagePath": "staticwebassets\\icons8-sunset-64.png"
+    },
+    {
       "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WeatherForecastApp.Models;
 
 namespace WeatherForecastApp.Data;
 
-public class WeatherDbContext : DbContext
+public class WeatherDbContext : IdentityDbContext<IdentityUser>
 {
     public WeatherDbContext()
     {
