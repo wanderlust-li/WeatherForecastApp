@@ -9,8 +9,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<WeatherDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<WeatherDbContext>();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<WeatherDbContext>();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -28,7 +29,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
