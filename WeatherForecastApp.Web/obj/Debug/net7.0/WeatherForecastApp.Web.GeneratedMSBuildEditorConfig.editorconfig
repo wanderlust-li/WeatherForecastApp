@@ -28,8 +28,10 @@ build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQ
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Admin/Views/Weather/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2VhdGhlclxJbmRleC5jc2h0bWw=
+[D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Customer/Views/Weather/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcV2VhdGhlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Admin/Views/_ViewImports.cshtml]

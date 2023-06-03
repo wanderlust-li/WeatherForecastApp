@@ -5,8 +5,8 @@ using WeatherForecastApp.Data;
 using WeatherForecastApp.Models;
 using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
-namespace WeatherForecastApp.Web.Areas.Admin.Controllers;
-[Area("Admin")]
+namespace WeatherForecastApp.Web.Areas.Customer.Controllers;
+[Area("Customer")]
 public class WeatherController : Controller
 {
     private readonly WeatherDbContext _context;
