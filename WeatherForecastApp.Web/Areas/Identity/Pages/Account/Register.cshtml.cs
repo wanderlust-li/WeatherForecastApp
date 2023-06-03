@@ -147,10 +147,14 @@ namespace WeatherForecastApp.Web.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    if (String.IsNullOrEmpty(Input.Role))
+                    // Ensure the chosen role is valid and add the user to the chosen role
+                    if (Input.Role != null && await _roleManager.RoleExistsAsync(Input.Role))
                         await _userManager.AddToRoleAsync(user, Input.Role);
+                    
                     else
+                        // If role doesn't exist or nothing was selected, default to Customer role
                         await _userManager.AddToRoleAsync(user, SD.Role_Cust);
+                    
                     
                     
                     
