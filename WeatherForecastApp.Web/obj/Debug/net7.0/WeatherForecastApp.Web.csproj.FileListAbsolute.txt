@@ -286,3 +286,5 @@ D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\Microsoft.Extensio
 D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 D:\WeatherForecastApp\WeatherForecastApp.Web\obj\Debug\net7.0\WeatherForecastApp.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\WeatherForecastApp.Utility.dll
+D:\WeatherForecastApp\WeatherForecastApp.Web\bin\Debug\net7.0\WeatherForecastApp.Utility.pdb

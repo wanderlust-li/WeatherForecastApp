@@ -1,11 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using WeatherForecastApp.Data;
-using WeatherForecastApp.Models;
 using WeatherForecastApp.Web.Models;
 
-namespace WeatherForecastApp.Web.Controllers
+namespace WeatherForecastApp.Web.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

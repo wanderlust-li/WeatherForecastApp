@@ -3835,6 +3835,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "Microsoft.Extensions.Identity.Stores": "7.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.6"
         },
         "compile": {
@@ -3842,6 +3843,16 @@
         },
         "runtime": {
           "bin/placeholder/WeatherForecastApp.Models.dll": {}
+        }
+      },
+      "WeatherForecastApp.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/WeatherForecastApp.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherForecastApp.Utility.dll": {}
         }
       }
     }
@@ -11050,6 +11061,11 @@
       "type": "project",
       "path": "../WeatherForecastApp.Models/WeatherForecastApp.Models.csproj",
       "msbuildProject": "../WeatherForecastApp.Models/WeatherForecastApp.Models.csproj"
+    },
+    "WeatherForecastApp.Utility/1.0.0": {
+      "type": "project",
+      "path": "../WeatherForecastApp.Utility/WeatherForecastApp.Utility.csproj",
+      "msbuildProject": "../WeatherForecastApp.Utility/WeatherForecastApp.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11061,7 +11077,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Newtonsoft.Json >= 13.0.1",
       "WeatherForecastApp.Data >= 1.0.0",
-      "WeatherForecastApp.Models >= 1.0.0"
+      "WeatherForecastApp.Models >= 1.0.0",
+      "WeatherForecastApp.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11096,6 +11113,9 @@
             },
             "D:\\WeatherForecastApp\\WeatherForecastApp.Models\\WeatherForecastApp.Models.csproj": {
               "projectPath": "D:\\WeatherForecastApp\\WeatherForecastApp.Models\\WeatherForecastApp.Models.csproj"
+            },
+            "D:\\WeatherForecastApp\\WeatherForecastApp.Utility\\WeatherForecastApp.Utility.csproj": {
+              "projectPath": "D:\\WeatherForecastApp\\WeatherForecastApp.Utility\\WeatherForecastApp.Utility.csproj"
             }
           }
         }

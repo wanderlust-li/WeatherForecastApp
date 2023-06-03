@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -30,6 +31,13 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="Customer" asp-controller="Weather" asp-action="Index">Weather</a>
                     </li>
+                    @if (User.IsInRole(SD.Role_Admin))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="WeatherAdmin" asp-action="Index">Admin Weather</a>
+                        </li>
+                    }
+                    
                 </ul>
                 <partial name="_LoginPartial"/>
             </div>

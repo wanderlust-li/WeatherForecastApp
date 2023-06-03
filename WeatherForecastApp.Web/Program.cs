@@ -9,7 +9,14 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<WeatherDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<WeatherDbContext>();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+});
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<WeatherDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddRazorPages();
 

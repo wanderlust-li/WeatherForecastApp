@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Newtonsoft.Json": "13.0.1",
           "WeatherForecastApp.Data": "1.0.0",
-          "WeatherForecastApp.Models": "1.0.0"
+          "WeatherForecastApp.Models": "1.0.0",
+          "WeatherForecastApp.Utility": "1.0.0"
         },
         "runtime": {
           "WeatherForecastApp.Web.dll": {}
@@ -2384,10 +2385,16 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "Microsoft.Extensions.Identity.Stores": "7.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.6"
         },
         "runtime": {
           "WeatherForecastApp.Models.dll": {}
+        }
+      },
+      "WeatherForecastApp.Utility/1.0.0": {
+        "runtime": {
+          "WeatherForecastApp.Utility.dll": {}
         }
       }
     }
@@ -3720,6 +3727,11 @@
       "sha512": ""
     },
     "WeatherForecastApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeatherForecastApp.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

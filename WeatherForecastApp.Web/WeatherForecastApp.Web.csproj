@@ -9,6 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\WeatherForecastApp.Data\WeatherForecastApp.Data.csproj" />
       <ProjectReference Include="..\WeatherForecastApp.Models\WeatherForecastApp.Models.csproj" />
+      <ProjectReference Include="..\WeatherForecastApp.Utility\WeatherForecastApp.Utility.csproj" />
     </ItemGroup>
 
     <ItemGroup>
@@ -35,10 +36,6 @@
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Areas\Admin\Controllers\" />
     </ItemGroup>
 
 </Project>
