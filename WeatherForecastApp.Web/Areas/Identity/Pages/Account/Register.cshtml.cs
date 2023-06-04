@@ -155,9 +155,6 @@ namespace WeatherForecastApp.Web.Areas.Identity.Pages.Account
                         // If role doesn't exist or nothing was selected, default to Customer role
                         await _userManager.AddToRoleAsync(user, SD.Role_Cust);
                     
-                    
-                    
-                    
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));

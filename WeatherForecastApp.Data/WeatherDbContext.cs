@@ -7,10 +7,6 @@ namespace WeatherForecastApp.Data;
 
 public class WeatherDbContext : IdentityDbContext<IdentityUser>
 {
-    public WeatherDbContext()
-    {
-    }
-
     public WeatherDbContext(DbContextOptions<WeatherDbContext> context) : base(context)
     {
     }
@@ -20,5 +16,5 @@ public class WeatherDbContext : IdentityDbContext<IdentityUser>
         optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Weather;Trusted_Connection=True;");
     }
     
-    public DbSet<Weather> Weathers { get; set; }
+    public DbSet<Weather>? Weathers { get; set; }
 }

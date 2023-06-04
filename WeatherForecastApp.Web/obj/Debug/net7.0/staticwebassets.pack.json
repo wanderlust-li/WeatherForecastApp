@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WeatherForecastApp.Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\css\\.gitignore",
+      "PackagePath": "staticwebassets\\css\\.gitignore"
+    },
+    {
       "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\css\\bootswatchTheme.css",
       "PackagePath": "staticwebassets\\css\\bootswatchTheme.css"
     },
