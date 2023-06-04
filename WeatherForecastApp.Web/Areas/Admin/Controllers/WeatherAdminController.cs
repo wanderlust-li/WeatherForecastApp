@@ -50,6 +50,4 @@ public class WeatherAdminController : Controller
 
         return RedirectToAction("Index");
     }
-    
-    
 }

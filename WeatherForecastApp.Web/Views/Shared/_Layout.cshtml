@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -33,11 +32,24 @@
                     </li>
                     @if (User.IsInRole(SD.Role_Admin))
                     {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="WeatherAdmin" asp-action="Index">Admin Weather</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                Admin Weather
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="WeatherAdmin" asp-action="Index">Weather List</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item text-dark">Temperature Tracker</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="User" asp-action="Index">User List</a>
+                                </li>
+                            </ul>
                         </li>
                     }
-                    
+
                 </ul>
                 <partial name="_LoginPartial"/>
             </div>
