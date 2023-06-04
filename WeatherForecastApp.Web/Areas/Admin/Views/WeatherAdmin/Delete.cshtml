@@ -1,0 +1,41 @@
+﻿@model WeatherForecastApp.Models.Weather
+
+<form method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Weather</h2>
+            <hr/>
+        </div>
+        @* <div asp-validation-summary="All"></div> *@
+        <div class="mb-3">
+            <label asp-for="City">City</label>
+            <input asp-for="City" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Temperature">Temperature</label>
+            <input asp-for="Temperature" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Humidity">Humidity</label>
+            <input asp-for="Humidity" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="WindSpeed">Wind Speed</label>
+            <input asp-for="WindSpeed" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="WeatherDescription">Weather Description</label>
+            <input asp-for="WeatherDescription" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="DateTime">DateTime</label>
+            <input asp-for="DateTime" disabled class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-danger" style="width: 150px">Delete</button>
+        <a asp-area="Admin" asp-controller="WeatherAdmin" asp-action="Index" class="btn btn-secondary" style="width: 150px">
+            Back To List
+        </a>
+    </div>
+</form>
+

@@ -60,9 +60,9 @@
                     @obj.DateTime 
                 </td>
                 <td>
-                    @*<div class="w-75 btn-group" role="group">
-                        <a asp-controller="Contact" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2"><i class="bi bi-x"></i>Delete</a>
-                    </div>*@
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-area="Admin" asp-controller="WeatherAdmin" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2"><i class="bi bi-x"></i>Delete</a>
+                    </div>
                 </td>
             </tr>
         }
