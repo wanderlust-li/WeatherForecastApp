@@ -4,4 +4,5 @@ public interface IUnitOfWork
 {
     IWeatherRepository WeatherR { get; }
     void Save();
+    Task SaveAsync();
 }

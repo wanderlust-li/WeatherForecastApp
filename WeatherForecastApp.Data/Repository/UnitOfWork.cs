@@ -1,4 +1,5 @@
 ﻿using WeatherForecastApp.Data.Repository.IRepository;
+using WeatherForecastApp.Models;
 
 namespace WeatherForecastApp.Data.Repository;
 
@@ -17,4 +18,9 @@ public class UnitOfWork : IUnitOfWork
     {
         _db.SaveChanges();
     }
+    public async Task SaveAsync()
+    {
+        await _db.SaveChangesAsync();
+    }
+
 }
