@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6VEm6IXlv3GKEoOeBhe1GHYzD7i6XGnpmes/K+uJ68pI27PeOSexmmK6uuXNqC1wzmp+ufbFOLGAcfScnLrbwQ==",
+  "dgSpecHash": "3VDx+hASqPXPQfSAkUTsrGVJXIH7bmeByRNY0TXMvAAIcgujARXyoR1H4WiY1RS1XrrSP8RcuVqRFY37cT6ySw==",
   "success": true,
   "projectFilePath": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\WeatherForecastApp.Web.csproj",
   "expectedPackageFiles": [
@@ -80,6 +80,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\morelinq\\3.4.2\\morelinq.3.4.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.common\\6.3.1\\nuget.common.6.3.1.nupkg.sha512",

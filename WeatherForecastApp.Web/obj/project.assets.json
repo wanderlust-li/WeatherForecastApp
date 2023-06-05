@@ -1858,6 +1858,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "morelinq/3.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -6643,6 +6656,34 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "morelinq/3.4.2": {
+      "sha512": "nKdpt7Ai+xQO8PZ0YFTn13INGJcKO0Nx65kO/ut0zaDirRo6d7atedmW2l68YB3x7U4pOqTLdMfYsBys8KxA1Q==",
+      "type": "package",
+      "path": "morelinq/3.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "README.md",
+        "lib/net462/MoreLinq.dll",
+        "lib/net462/MoreLinq.pdb",
+        "lib/net462/MoreLinq.xml",
+        "lib/net6.0/MoreLinq.dll",
+        "lib/net6.0/MoreLinq.pdb",
+        "lib/net6.0/MoreLinq.xml",
+        "lib/netstandard1.0/MoreLinq.dll",
+        "lib/netstandard1.0/MoreLinq.pdb",
+        "lib/netstandard1.0/MoreLinq.xml",
+        "lib/netstandard2.0/MoreLinq.dll",
+        "lib/netstandard2.0/MoreLinq.pdb",
+        "lib/netstandard2.0/MoreLinq.xml",
+        "lib/netstandard2.1/MoreLinq.dll",
+        "lib/netstandard2.1/MoreLinq.pdb",
+        "lib/netstandard2.1/MoreLinq.xml",
+        "morelinq.3.4.2.nupkg.sha512",
+        "morelinq.nuspec"
+      ]
+    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -11078,7 +11119,8 @@
       "Newtonsoft.Json >= 13.0.1",
       "WeatherForecastApp.Data >= 1.0.0",
       "WeatherForecastApp.Models >= 1.0.0",
-      "WeatherForecastApp.Utility >= 1.0.0"
+      "WeatherForecastApp.Utility >= 1.0.0",
+      "morelinq >= 3.4.2"
     ]
   },
   "packageFolders": {
@@ -11157,6 +11199,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "morelinq": {
+            "target": "Package",
+            "version": "[3.4.2, )"
           }
         },
         "imports": [

@@ -16,7 +16,8 @@
           "Newtonsoft.Json": "13.0.1",
           "WeatherForecastApp.Data": "1.0.0",
           "WeatherForecastApp.Models": "1.0.0",
-          "WeatherForecastApp.Utility": "1.0.0"
+          "WeatherForecastApp.Utility": "1.0.0",
+          "morelinq": "3.4.2"
         },
         "runtime": {
           "WeatherForecastApp.Web.dll": {}
@@ -1383,6 +1384,14 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "morelinq/3.4.2": {
+        "runtime": {
+          "lib/net6.0/MoreLinq.dll": {
+            "assemblyVersion": "3.4.2.0",
+            "fileVersion": "3.4.2.0"
           }
         }
       },
@@ -2936,6 +2945,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "morelinq/3.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nKdpt7Ai+xQO8PZ0YFTn13INGJcKO0Nx65kO/ut0zaDirRo6d7atedmW2l68YB3x7U4pOqTLdMfYsBys8KxA1Q==",
+      "path": "morelinq/3.4.2",
+      "hashPath": "morelinq.3.4.2.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

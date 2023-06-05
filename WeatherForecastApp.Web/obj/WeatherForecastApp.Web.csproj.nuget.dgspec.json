@@ -306,6 +306,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "morelinq": {
+              "target": "Package",
+              "version": "[3.4.2, )"
             }
           },
           "imports": [

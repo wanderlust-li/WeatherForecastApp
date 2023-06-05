@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using WeatherForecastApp.Data;
 using WeatherForecastApp.Models;
 using WeatherForecastApp.Utility;
+using MoreLinq;
+using MoreLinq.Extensions;
 
 namespace WeatherForecastApp.Web.Areas.Admin.Controllers;
 [Area("Admin")]
@@ -49,5 +51,17 @@ public class WeatherAdminController : Controller
         _context.SaveChanges();
 
         return RedirectToAction("Index");
+    }
+    public IActionResult CountHotDays()
+    {
+        var hotDaysCount = _context.Weathers
+            .Where(w => w.City == "Kyiv" && w.Temperature > 20)
+            .Select(w => w.DateTime.Date)
+            .Distinct()
+            .Count();
+
+        ViewBag.HotDaysCount = hotDaysCount;
+
+        return View();
     }
 }

@@ -34,12 +34,8 @@ build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcV2VhdGhl
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Admin/Views/User/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Admin/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Admin/Views/WeatherAdmin/CountHotDays.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2VhdGhlckFkbWluXENvdW50SG90RGF5cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WeatherForecastApp/WeatherForecastApp.Web/Areas/Admin/Views/WeatherAdmin/Delete.cshtml]
