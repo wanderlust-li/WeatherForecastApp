@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+HTTirkDZEW8QE4y6fXWvFU0jsix74Zu5JD/q24NEH0=",
+  "Hash": "y6UIvDI+poqtIHOqhR7/nizGLXmbPkjWEcoeBS/D5eo=",
   "Source": "WeatherForecastApp.Web",
   "BasePath": "_content/WeatherForecastApp.Web",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\favicon.ico",
+      "Identity": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\icons8-sunset-32.ico",
       "SourceId": "WeatherForecastApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\",
       "BasePath": "_content/WeatherForecastApp.Web",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "icons8-sunset-32.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,24 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\icons8-sunset-64.png",
-      "SourceId": "WeatherForecastApp.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\",
-      "BasePath": "_content/WeatherForecastApp.Web",
-      "RelativePath": "icons8-sunset-64.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons8-sunset-64.png"
+      "OriginalItemSpec": "wwwroot\\icons8-sunset-32.ico"
     },
     {
       "Identity": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\js\\site.js",

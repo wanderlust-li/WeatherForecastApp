@@ -17,12 +17,8 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\icons8-sunset-64.png",
-      "PackagePath": "staticwebassets\\icons8-sunset-64.png"
+      "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\icons8-sunset-32.ico",
+      "PackagePath": "staticwebassets\\icons8-sunset-32.ico"
     },
     {
       "Id": "D:\\WeatherForecastApp\\WeatherForecastApp.Web\\wwwroot\\js\\site.js",
