@@ -6,22 +6,23 @@ using WeatherForecastApp.Models;
 using WeatherForecastApp.Utility;
 using MoreLinq;
 using MoreLinq.Extensions;
+using WeatherForecastApp.Data.Repository.IRepository;
 
 namespace WeatherForecastApp.Web.Areas.Admin.Controllers;
 [Area("Admin")]
 [Authorize(Roles = SD.Role_Admin)]
 public class WeatherAdminController : Controller
 {
-    private readonly WeatherDbContext _context;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public WeatherAdminController(WeatherDbContext context)
+    public WeatherAdminController(IUnitOfWork unitOfWork)
     {
-        _context = context;
+        _unitOfWork = unitOfWork;
     }
     // GET
     public IActionResult Index()
     {
-        IEnumerable<Weather> weathers = _context.Weathers;
+        IEnumerable<Weather> weathers = _unitOfWork.WeatherR.GetAll();
 
         return View(weathers);
     }
@@ -30,7 +31,7 @@ public class WeatherAdminController : Controller
     {
         if (id == 0 || id == null)
             return NotFound();
-        var weather = _context.Weathers.FirstOrDefault(u => u.Id == id);
+        var weather = _unitOfWork.WeatherR.Get(u => u.Id == id);
         if (weather == null)
             return NotFound();
 
@@ -42,19 +43,19 @@ public class WeatherAdminController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult DeletePOST(int ?id)
     {
-        var weather = _context.Weathers.FirstOrDefault(u => u.Id == id);
+        var weather = _unitOfWork.WeatherR.Get(u => u.Id == id);
 
         if (weather == null)
             return NotFound();
 
-        _context.Weathers.Remove(weather);
-        _context.SaveChanges();
+        _unitOfWork.WeatherR.Remove(weather);
+        _unitOfWork.Save();
 
         return RedirectToAction("Index");
     }
     public IActionResult CountHotDays()
     {
-        var hotDaysCount = _context.Weathers
+        var hotDaysCount = _unitOfWork.WeatherR.GetAll()
             .Where(w => w.City == "Kyiv" && w.Temperature > 20)
             .Select(w => w.DateTime.Date)
             .Distinct()

@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using WeatherForecastApp.Data;
 using Microsoft.AspNetCore.Identity;
+using WeatherForecastApp.Data.Repository;
+using WeatherForecastApp.Data.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +21,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<WeatherDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddRazorPages();
-
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

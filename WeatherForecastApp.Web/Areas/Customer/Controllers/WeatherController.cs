@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using WeatherForecastApp.Data;
+using WeatherForecastApp.Data.Repository.IRepository;
 using WeatherForecastApp.Models;
 using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
@@ -9,11 +10,11 @@ namespace WeatherForecastApp.Web.Areas.Customer.Controllers;
 [Area("Customer")]
 public class WeatherController : Controller
 {
-    private readonly WeatherDbContext _context;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public WeatherController(WeatherDbContext context)
+    public WeatherController(IUnitOfWork unitOfWork)
     {
-        _context = context;
+        _unitOfWork = unitOfWork;
     }
     // GET
     [HttpGet]
@@ -47,8 +48,8 @@ public class WeatherController : Controller
                 DateTime = DateTime.Now
             };
 
-            _context.Weathers.Add(weather);
-            await _context.SaveChangesAsync();
+            _unitOfWork.WeatherR.Add(weather);
+            await _unitOfWork.SaveAsync();
 
             return View(weather);
         }
